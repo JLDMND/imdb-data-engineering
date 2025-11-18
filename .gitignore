@@ -6,3 +6,6 @@
 
 # macOS metadata files
 .DS_Store
+.vscode/*.code-snippets
+.vscode/*.db
+.vscode/settings.json
