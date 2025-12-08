@@ -1,11 +1,39 @@
+# ---------------------------
 # Python virtual environment
+# ---------------------------
 .venv/
 
-# VS Code settings
-.vscode/
-
-# macOS metadata files
+# ---------------------------
+# macOS metadata
+# ---------------------------
 .DS_Store
-.vscode/*.code-snippets
-.vscode/*.db
-.vscode/settings.json
+
+# ---------------------------
+# VS Code settings
+# ---------------------------
+.vscode/
+*.code-snippets
+
+# ---------------------------
+# Python cache folders
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ---------------------------
+# Jupyter Notebook checkpoints
+# ---------------------------
+.ipynb_checkpoints/
+
+# ---------------------------
+# DuckDB database files
+# ---------------------------
+*.duckdb
+*.wal
+
+# ---------------------------
+# Data files (raw & processed)
+# -------------
+
